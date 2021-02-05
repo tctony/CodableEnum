@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "CodableEnum",
-            targets: ["CodableEnum"]),
+            targets: ["CodableEnum","EquatableCodableEnum"]),
     ],
     dependencies: [
     ],
@@ -16,8 +16,11 @@ let package = Package(
         .target(
             name: "CodableEnum",
             dependencies: []),
+        .target(
+            name: "EquatableCodableEnum",
+            dependencies: []),
         .testTarget(
             name: "CodableEnumTests",
-            dependencies: ["CodableEnum"]),
+            dependencies: ["CodableEnum","EquatableCodableEnum"]),
     ]
 )

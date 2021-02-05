@@ -1,9 +1,9 @@
 
-public enum CodableEnum${count}<
+public enum ${ equal and 'Equatable' or '' }CodableEnum${count}<
     % for i in range(count):
-    ${ 'T' + str(i) }: Equatable & Codable${ (i<count-1 and ', ' or '') }
+    ${ 'T' + str(i) }: ${ equal and 'Equatable & ' or '' }Codable${ (i<count-1 and ', ' or '') }
     % endfor
-    >: Equatable, Codable {
+    >: ${ equal and 'Equatable, ' or '' }Codable {
 
     % for i in range(count):
     case t${i}(T${i})
@@ -40,4 +40,3 @@ public enum CodableEnum${count}<
         }
     }
 }
-

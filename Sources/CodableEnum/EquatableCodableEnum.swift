@@ -1,9 +1,9 @@
 // swiftlint:disable
 
-public enum CodableEnum2<
-    T0: Codable, 
-    T1: Codable
-    >: Codable {
+public enum EquatableCodableEnum2<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -43,11 +43,11 @@ public enum CodableEnum2<
     }
 }
 
-public enum CodableEnum3<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable
-    >: Codable {
+public enum EquatableCodableEnum3<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -97,12 +97,12 @@ public enum CodableEnum3<
     }
 }
 
-public enum CodableEnum4<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable
-    >: Codable {
+public enum EquatableCodableEnum4<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -162,13 +162,13 @@ public enum CodableEnum4<
     }
 }
 
-public enum CodableEnum5<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable
-    >: Codable {
+public enum EquatableCodableEnum5<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -238,14 +238,14 @@ public enum CodableEnum5<
     }
 }
 
-public enum CodableEnum6<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable
-    >: Codable {
+public enum EquatableCodableEnum6<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -325,15 +325,15 @@ public enum CodableEnum6<
     }
 }
 
-public enum CodableEnum7<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable
-    >: Codable {
+public enum EquatableCodableEnum7<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -423,16 +423,16 @@ public enum CodableEnum7<
     }
 }
 
-public enum CodableEnum8<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable, 
-    T7: Codable
-    >: Codable {
+public enum EquatableCodableEnum8<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable, 
+    T7: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -532,17 +532,17 @@ public enum CodableEnum8<
     }
 }
 
-public enum CodableEnum9<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable, 
-    T7: Codable, 
-    T8: Codable
-    >: Codable {
+public enum EquatableCodableEnum9<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable, 
+    T7: Equatable & Codable, 
+    T8: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -652,18 +652,18 @@ public enum CodableEnum9<
     }
 }
 
-public enum CodableEnum10<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable, 
-    T7: Codable, 
-    T8: Codable, 
-    T9: Codable
-    >: Codable {
+public enum EquatableCodableEnum10<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable, 
+    T7: Equatable & Codable, 
+    T8: Equatable & Codable, 
+    T9: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -783,19 +783,19 @@ public enum CodableEnum10<
     }
 }
 
-public enum CodableEnum11<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable, 
-    T7: Codable, 
-    T8: Codable, 
-    T9: Codable, 
-    T10: Codable
-    >: Codable {
+public enum EquatableCodableEnum11<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable, 
+    T7: Equatable & Codable, 
+    T8: Equatable & Codable, 
+    T9: Equatable & Codable, 
+    T10: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -925,20 +925,20 @@ public enum CodableEnum11<
     }
 }
 
-public enum CodableEnum12<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable, 
-    T7: Codable, 
-    T8: Codable, 
-    T9: Codable, 
-    T10: Codable, 
-    T11: Codable
-    >: Codable {
+public enum EquatableCodableEnum12<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable, 
+    T7: Equatable & Codable, 
+    T8: Equatable & Codable, 
+    T9: Equatable & Codable, 
+    T10: Equatable & Codable, 
+    T11: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -1078,21 +1078,21 @@ public enum CodableEnum12<
     }
 }
 
-public enum CodableEnum13<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable, 
-    T7: Codable, 
-    T8: Codable, 
-    T9: Codable, 
-    T10: Codable, 
-    T11: Codable, 
-    T12: Codable
-    >: Codable {
+public enum EquatableCodableEnum13<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable, 
+    T7: Equatable & Codable, 
+    T8: Equatable & Codable, 
+    T9: Equatable & Codable, 
+    T10: Equatable & Codable, 
+    T11: Equatable & Codable, 
+    T12: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -1242,22 +1242,22 @@ public enum CodableEnum13<
     }
 }
 
-public enum CodableEnum14<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable, 
-    T7: Codable, 
-    T8: Codable, 
-    T9: Codable, 
-    T10: Codable, 
-    T11: Codable, 
-    T12: Codable, 
-    T13: Codable
-    >: Codable {
+public enum EquatableCodableEnum14<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable, 
+    T7: Equatable & Codable, 
+    T8: Equatable & Codable, 
+    T9: Equatable & Codable, 
+    T10: Equatable & Codable, 
+    T11: Equatable & Codable, 
+    T12: Equatable & Codable, 
+    T13: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -1417,23 +1417,23 @@ public enum CodableEnum14<
     }
 }
 
-public enum CodableEnum15<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable, 
-    T7: Codable, 
-    T8: Codable, 
-    T9: Codable, 
-    T10: Codable, 
-    T11: Codable, 
-    T12: Codable, 
-    T13: Codable, 
-    T14: Codable
-    >: Codable {
+public enum EquatableCodableEnum15<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable, 
+    T7: Equatable & Codable, 
+    T8: Equatable & Codable, 
+    T9: Equatable & Codable, 
+    T10: Equatable & Codable, 
+    T11: Equatable & Codable, 
+    T12: Equatable & Codable, 
+    T13: Equatable & Codable, 
+    T14: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -1603,24 +1603,24 @@ public enum CodableEnum15<
     }
 }
 
-public enum CodableEnum16<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable, 
-    T7: Codable, 
-    T8: Codable, 
-    T9: Codable, 
-    T10: Codable, 
-    T11: Codable, 
-    T12: Codable, 
-    T13: Codable, 
-    T14: Codable, 
-    T15: Codable
-    >: Codable {
+public enum EquatableCodableEnum16<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable, 
+    T7: Equatable & Codable, 
+    T8: Equatable & Codable, 
+    T9: Equatable & Codable, 
+    T10: Equatable & Codable, 
+    T11: Equatable & Codable, 
+    T12: Equatable & Codable, 
+    T13: Equatable & Codable, 
+    T14: Equatable & Codable, 
+    T15: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -1800,25 +1800,25 @@ public enum CodableEnum16<
     }
 }
 
-public enum CodableEnum17<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable, 
-    T7: Codable, 
-    T8: Codable, 
-    T9: Codable, 
-    T10: Codable, 
-    T11: Codable, 
-    T12: Codable, 
-    T13: Codable, 
-    T14: Codable, 
-    T15: Codable, 
-    T16: Codable
-    >: Codable {
+public enum EquatableCodableEnum17<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable, 
+    T7: Equatable & Codable, 
+    T8: Equatable & Codable, 
+    T9: Equatable & Codable, 
+    T10: Equatable & Codable, 
+    T11: Equatable & Codable, 
+    T12: Equatable & Codable, 
+    T13: Equatable & Codable, 
+    T14: Equatable & Codable, 
+    T15: Equatable & Codable, 
+    T16: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -2008,26 +2008,26 @@ public enum CodableEnum17<
     }
 }
 
-public enum CodableEnum18<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable, 
-    T7: Codable, 
-    T8: Codable, 
-    T9: Codable, 
-    T10: Codable, 
-    T11: Codable, 
-    T12: Codable, 
-    T13: Codable, 
-    T14: Codable, 
-    T15: Codable, 
-    T16: Codable, 
-    T17: Codable
-    >: Codable {
+public enum EquatableCodableEnum18<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable, 
+    T7: Equatable & Codable, 
+    T8: Equatable & Codable, 
+    T9: Equatable & Codable, 
+    T10: Equatable & Codable, 
+    T11: Equatable & Codable, 
+    T12: Equatable & Codable, 
+    T13: Equatable & Codable, 
+    T14: Equatable & Codable, 
+    T15: Equatable & Codable, 
+    T16: Equatable & Codable, 
+    T17: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -2227,27 +2227,27 @@ public enum CodableEnum18<
     }
 }
 
-public enum CodableEnum19<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable, 
-    T7: Codable, 
-    T8: Codable, 
-    T9: Codable, 
-    T10: Codable, 
-    T11: Codable, 
-    T12: Codable, 
-    T13: Codable, 
-    T14: Codable, 
-    T15: Codable, 
-    T16: Codable, 
-    T17: Codable, 
-    T18: Codable
-    >: Codable {
+public enum EquatableCodableEnum19<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable, 
+    T7: Equatable & Codable, 
+    T8: Equatable & Codable, 
+    T9: Equatable & Codable, 
+    T10: Equatable & Codable, 
+    T11: Equatable & Codable, 
+    T12: Equatable & Codable, 
+    T13: Equatable & Codable, 
+    T14: Equatable & Codable, 
+    T15: Equatable & Codable, 
+    T16: Equatable & Codable, 
+    T17: Equatable & Codable, 
+    T18: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)
@@ -2457,28 +2457,28 @@ public enum CodableEnum19<
     }
 }
 
-public enum CodableEnum20<
-    T0: Codable, 
-    T1: Codable, 
-    T2: Codable, 
-    T3: Codable, 
-    T4: Codable, 
-    T5: Codable, 
-    T6: Codable, 
-    T7: Codable, 
-    T8: Codable, 
-    T9: Codable, 
-    T10: Codable, 
-    T11: Codable, 
-    T12: Codable, 
-    T13: Codable, 
-    T14: Codable, 
-    T15: Codable, 
-    T16: Codable, 
-    T17: Codable, 
-    T18: Codable, 
-    T19: Codable
-    >: Codable {
+public enum EquatableCodableEnum20<
+    T0: Equatable & Codable, 
+    T1: Equatable & Codable, 
+    T2: Equatable & Codable, 
+    T3: Equatable & Codable, 
+    T4: Equatable & Codable, 
+    T5: Equatable & Codable, 
+    T6: Equatable & Codable, 
+    T7: Equatable & Codable, 
+    T8: Equatable & Codable, 
+    T9: Equatable & Codable, 
+    T10: Equatable & Codable, 
+    T11: Equatable & Codable, 
+    T12: Equatable & Codable, 
+    T13: Equatable & Codable, 
+    T14: Equatable & Codable, 
+    T15: Equatable & Codable, 
+    T16: Equatable & Codable, 
+    T17: Equatable & Codable, 
+    T18: Equatable & Codable, 
+    T19: Equatable & Codable
+    >: Equatable, Codable {
 
     case t0(T0)
     case t1(T1)

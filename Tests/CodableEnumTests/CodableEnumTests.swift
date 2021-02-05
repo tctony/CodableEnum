@@ -13,7 +13,7 @@ struct StringValue: Equatable, Codable {
     var stringValue = "abc"
 }
 
-typealias ValueField = CodableEnum3<IntValue, DoubleValue, StringValue>
+typealias ValueField = EquatableCodableEnum3<IntValue, DoubleValue, StringValue>
 
 struct Response: Equatable, Codable {
     var code: Int
